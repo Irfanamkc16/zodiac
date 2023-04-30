@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zodic</title>
+    <link rel ="stylesheet" href ="image.css">
+</head>
+<body>
+    <div class="box" style ="border: double;background-color: lightgoldenrodyellow;margin-right: 15cm;margin-left:5cm;margin-top:4cm;">
+    <h1 style="text-align: center;" > zodiac sign</h1>
+   
+    <h3 label for ="day"style="margin-left:1cm">Enter your day</label>
+    <input type="number" id ="day" name ="day" style="margin-left: 1cm ;"><br>
+    <br>
+   <label for="month">Enter your month</label>
+    <select name ="month" id ="month" style="margin-left: 1cm;"><hr>
+        <option  value="1">january</option>
+        <option value="2">february</option>
+        <option value="3">march</option>
+        <option value="4">april</option>
+        <option value="5">may</option>
+         <option value="6">june</option>
+         <option value="7">july</option>
+            <option value="8">august</option>>
+            <option value="9">september</option>
+            <option value="10">october</option>
+            <option value="11">november</option>
+            <option value="12">december</option><br><hr>
+            </select>
+<br><br>
+<button onclick="zodiacsign();"style="margin-left:4cm;" >Your zodiac sign</button> <br><hr>
+<h1 span id="zodiacsign" style="text-align: center;"></h1></span>
+</div><br>
+<script src="zodiac.js"></script>
+</body>
+</html>
